@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #174a7c;
+  color: #fff;
+}
+.auth-container, .tasksboard-container {
+  max-width: 400px;
+  margin: 5% auto;
+  background: #174a7c;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.1);
+}
+input, button {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  border-radius: 5px;
+  border: none;
+}
+button {
+  background: #fff;
+  color: #174a7c;
+  font-weight: bold;
+  cursor: pointer;
+}
+.tasklist {
+  background: #fff;
+  color: #174a7c;
+  border-radius: 10px;
+  padding: 1rem;
+}
+.task-item {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0;
+}
+.task-item.completed span {
+  text-decoration: line-through;
+  color: green;
+}
+@media (max-width: 600px) {
+  .auth-container, .tasksboard-container {
+    max-width: 95vw;
+    padding: 1rem;
+  }
+}

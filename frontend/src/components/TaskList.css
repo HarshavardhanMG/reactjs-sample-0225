@@ -1,0 +1,21 @@
+/* TaskList.css */
+
+.tasklist {
+    background: #f8fafc;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    box-shadow: 0 2px 8px rgba(23,74,124,0.05);
+    min-height: 120px;
+  }
+  
+  .tasklist > div {
+    margin-bottom: 1rem;
+  }
+  
+  @media (max-width: 600px) {
+    .tasklist {
+      padding: 1rem;
+      min-height: 80px;
+    }
+  }
